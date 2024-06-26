@@ -31,7 +31,7 @@ or
 MadKreator37  [Discord](https://discord.gg/nzyfQr3K)
 
 ### Known Bugs and Issues
--Emergency brake handle animation can be buggy, but it is a made up function that is not a standard interface function
+-Parking brake handle animation can be buggy, but it is a made up function that is not a standard interface function
 
 
 ### Notes
