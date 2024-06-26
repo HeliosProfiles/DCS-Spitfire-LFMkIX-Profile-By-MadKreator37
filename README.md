@@ -1,5 +1,5 @@
 # Helios Profile for the DCS Spitfire LFMkIX by MadKreator37
-This is a profile for Helios Virtual Cockpit to support the the DCS Spitfire LFMkIX.
+This is a profile for Helios Virtual Cockpit to support the DCS Spitfire LFMkIX.
 
 ### Creating a New Profile
 
