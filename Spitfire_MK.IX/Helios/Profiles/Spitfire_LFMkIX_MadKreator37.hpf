@@ -4183,12 +4183,12 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel.Timer" Name="Splash Screen" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel.Timer" Name="Splash Screen" SnapTarget="True" Locked="False">
           <Location>522,347</Location>
           <Size>856,478</Size>
           <Hidden>False</Hidden>
           <Background>
-            <Image>MadKreator37\Spitfire_LFMkIX\Screenshot 2024-06-24 195813.png</Image>
+            <Image>MadKreator37\Spitfire_LFMkIX\Splash_Screen.png</Image>
             <ImageAlignment>Stretched</ImageAlignment>
           </Background>
           <Interaction>
@@ -5715,7 +5715,7 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire 1" Name="Numeric Signal.changed" />
       <Action Target="Visual;Monitor 2.Splash Screen.Splash Screen 1;Helios.Base.Text;Splash Screen 1" Name="set.Text" />
-      <LuaScript>return(string.sub("V1.0.0 24 JUN 2024",0,TriggerValue))</LuaScript>
+      <LuaScript>return(string.sub("_ProfileVersionNumber _BuildDate",0,TriggerValue))</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire 1" Name="Upper/Lower threshold breach.changed" />
