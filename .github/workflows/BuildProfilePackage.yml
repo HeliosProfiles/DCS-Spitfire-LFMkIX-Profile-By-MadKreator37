@@ -18,7 +18,7 @@ env:
   MINHELIOSRELEASE: 1.6.6100.00000
   PROFILENAME: Spitfire_LFMkIX_MadKreator37
   AUTHOR: MadKreator37
-  PRODUCER: Eagle Dynamics
+  PRODUCER: Eagle_Dynamics
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -94,7 +94,6 @@ jobs:
           sed -i -- 's/_Vehicle/'"${{ env.VEHICLE }}"'/g' Profile16.json
           sed -i -- 's#_Repository#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases"'#g' Profile16.json
           sed -i -- 's#_Author#'${{ env.AUTHOR }}'#g' Profile16.json
-          echo 1
           sed -i -- 's#_Producer#'${{ env.PRODUCER }}'#g' Profile16.json
           echo 2
           sed -i -- 's/_Vehicle/'"${{ env.VEHICLE }}"'/g' '${{ env.VEHICLECOMMONNAME }} - About this profile.md'
