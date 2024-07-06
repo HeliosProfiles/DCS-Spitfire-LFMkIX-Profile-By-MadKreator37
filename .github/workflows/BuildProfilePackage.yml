@@ -7,17 +7,18 @@ name: CreateHelios16
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push request events but only for the main branch
-  #push:
-  #  branches: [ main ]
+  push:
+    branches: [ main ]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 env:
-  VEHICLE: _vehicle
-  VEHICLECOMMONNAME: _aircraft
-  MINHELIOSRELEASE: _minheliosrelease
-  PROFILENAME: _aircraft__author
-  AUTHOR: _author
+  VEHICLE: SpitfireLFMkIX
+  VEHICLECOMMONNAME: Spitfire LF Mk. IX
+  MINHELIOSRELEASE: 1.6.6100.00000
+  PROFILENAME: DCS-Spitfire-LFMkIX-Profile-By-MadKreator37
+  AUTHOR: MadKreator37
+  PRODUCER: Eagle Dynamics
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -30,28 +31,28 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: '0'
       - name: Set outputs
         id: vars
         run: |
-          echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
-          echo "date=$(date +'%d-%b-%Y')" >> $GITHUB_OUTPUT
-          echo "actor=${GITHUB_ACTOR}" >> $GITHUB_OUTPUT
+          echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+          echo "date=$(date +'%d-%b-%Y')"  >> $GITHUB_ENV
+          echo "actor=${GITHUB_ACTOR}"  >> $GITHUB_ENV
       - name: Bump version and push 
         id: bump_tag
         uses: anothrNick/github-tag-action@1.64.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO_OWNER: HeliosVirtualCockpit
+          REPO_OWNER: HeliosProfiles
           DEFAULT_BUMP: 'patch'
           INITIAL_VERSION: '0.0.0'
       - name: Check outputs
         run: |
           #env
           echo ${{ env.VEHICLE }} - ${{ env.VEHICLECOMMONNAME }}
-          echo "Commit SHA (short) - " ${{ steps.vars.outputs.sha_short }}
+          echo "Commit SHA (short) - " ${{ env.sha_short }}
           echo "New Release - V " ${{ steps.bump_tag.outputs.tag }}
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -65,34 +66,35 @@ jobs:
       - name: execute python script(s) to adjust the profile
         run: |
           echo "Adjust the profile internals"
-          # python .github/workflows/AdjustLocalProfile.py '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_${{ env.AUTHOR }}.hpf' '.github/workflows/VariantBindings.xml' '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_${{ env.AUTHOR }}.hpf.newbindings'
-          python .github/workflows/AdjustLocalProfileMonitors.py '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_${{ env.AUTHOR }}.hpf' '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_${{ env.AUTHOR }}.hpf.new'
-          sed -i -- 's#Visual;Monitor 2#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_'${{ env.AUTHOR }}'.hpf.new'
-          sed -i -- 's#Visual;Monitor 3#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_'${{ env.AUTHOR }}'.hpf.new'
-          sed -i -- 's#Visual;Monitor 4#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_'${{ env.AUTHOR }}'.hpf.new'
-          sed -i -- 's#Visual;Monitor 5#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_'${{ env.AUTHOR }}'.hpf.new'
-          sed -i -- 's#Visual;Monitor 6#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_'${{ env.AUTHOR }}'.hpf.new'
-          # rm '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_'${{ env.AUTHOR }}'.hpf.newbindings'
-          rm '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_'${{ env.AUTHOR }}'.hpf'
-          mv '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_'${{ env.AUTHOR }}'.hpf.new' '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_'${{ env.AUTHOR }}'.hpf'
+          # python .github/workflows/AdjustLocalProfile.py '${{ env.VEHICLE }}/Helios/Profiles/${{ env.VEHICLE }}_${{ env.AUTHOR }}.hpf' '.github/workflows/VariantBindings.xml' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.VEHICLE }}_${{ env.AUTHOR }}.hpf.newbindings'
+          python .github/workflows/AdjustLocalProfileMonitors.py '${{ env.VEHICLE }}/Helios/Profiles/${{ env.VEHICLE }}_${{ env.AUTHOR }}.hpf' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.VEHICLE }}_${{ env.AUTHOR }}.hpf.new'
+          sed -i -- 's#Visual;Monitor 2#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.VEHICLE }}'_'${{ env.AUTHOR }}'.hpf.new'
+          sed -i -- 's#Visual;Monitor 3#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.VEHICLE }}'_'${{ env.AUTHOR }}'.hpf.new'
+          sed -i -- 's#Visual;Monitor 4#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.VEHICLE }}'_'${{ env.AUTHOR }}'.hpf.new'
+          sed -i -- 's#Visual;Monitor 5#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.VEHICLE }}'_'${{ env.AUTHOR }}'.hpf.new'
+          sed -i -- 's#Visual;Monitor 6#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.VEHICLE }}'_'${{ env.AUTHOR }}'.hpf.new'
+          # rm '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.VEHICLE }}'_'${{ env.AUTHOR }}'.hpf.newbindings'
+          rm '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.VEHICLE }}'_'${{ env.AUTHOR }}'.hpf'
+          mv '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.VEHICLE }}'_'${{ env.AUTHOR }}'.hpf.new' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.VEHICLE }}'_'${{ env.AUTHOR }}'.hpf'
       - run: |
           mkdir -p output
           smallTag=$(echo ${{ steps.bump_tag.outputs.tag }} | cut -c1-5)
           echo 'Small Tag= '$smallTag
-          sed -i -- 's#_ProfileVersionNumber#'"V ${{ steps.bump_tag.outputs.tag }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_'${{ env.AUTHOR }}'.hpf'
-          sed -i -- 's#_BuildDate#'"$(date "+%d %b %Y")"'#g' '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_'${{ env.AUTHOR }}'.hpf'
-          sed -i -- 's#_Vehicle#'"${{ env.VEHICLE }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_'${{ env.AUTHOR }}'.hpf'
-          sed -i -- 's#_Author#'"${{ env.AUTHOR }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_'${{ env.AUTHOR }}'.hpf'
-          sed -i -- 's#_CurrentDate#'"${{ steps.vars.outputs.date }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_'${{ env.AUTHOR }}'.hpf'
-          sed -i -- 's#_Repository#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases"'#g' '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_'${{ env.AUTHOR }}'.hpf'
-          mv '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_${{ env.AUTHOR }}.hpf' '${{ env.VEHICLE }}/Helios/Profiles/_aircraft_${{ steps.bump_tag.outputs.tag }}_${{ env.AUTHOR }}.hpf'
+          sed -i -- 's#_ProfileVersionNumber#'"V ${{ steps.bump_tag.outputs.tag }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.VEHICLE }}_'${{ env.AUTHOR }}'.hpf'
+          sed -i -- 's#_BuildDate#'"$(date "+%d %b %Y")"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.VEHICLE }}'_'${{ env.AUTHOR }}'.hpf'
+          sed -i -- 's#_Vehicle#'"${{ env.VEHICLE }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.VEHICLE }}'_'${{ env.AUTHOR }}'.hpf'
+          sed -i -- 's#_Author#'"${{ env.AUTHOR }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.VEHICLE }}'_'${{ env.AUTHOR }}'.hpf'
+          sed -i -- 's#_CurrentDate#'"${{ steps.vars.outputs.date }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.VEHICLE }}'_'${{ env.AUTHOR }}'.hpf'
+          sed -i -- 's#_Repository#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.VEHICLE }}'_'${{ env.AUTHOR }}'.hpf'
+          mv '${{ env.VEHICLE }}/Helios/Profiles/${{ env.VEHICLE }}_${{ env.AUTHOR }}.hpf' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.VEHICLE }}_${{ steps.bump_tag.outputs.tag }}_${{ env.AUTHOR }}.hpf'
           echo Substituting info in the Profile16.json manifest
-          sed -i -- 's/_MinimumReleaseLevel/${{ env.MINHELIOSRELEASE }}/g' Profile16.json
+          sed -i -- 's/_MinHeliosRelease/${{ env.MINHELIOSRELEASE }}/g' Profile16.json
           sed -i -- 's/_ReleaseDate/'"$(date "+%d %B %Y")"'/g' Profile16.json
           sed -i -- 's/_ProfileVersionNumber/'"V${{ steps.bump_tag.outputs.tag }}"'/g' Profile16.json
           sed -i -- 's/_Vehicle/'"${{ env.VEHICLE }}"'/g' Profile16.json
           sed -i -- 's#_Repository#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases"'#g' Profile16.json
           sed -i -- 's#_Author#'${{ env.AUTHOR }}'#g' Profile16.json
+          sed -i -- 's#_Producer#'${{ env.PRODUCER }}'#g' Profile16.json
           sed -i -- 's/_Vehicle/'"${{ env.VEHICLE }}"'/g' '${{ env.VEHICLECOMMONNAME }} - About this profile.md'
           sed -i -- 's#_Author#'${{ env.AUTHOR }}'#g' '${{ env.VEHICLECOMMONNAME }} - About this profile.md'
           sed -i -- 's#_ProfileVersionNumber#'"V ${{ steps.bump_tag.outputs.tag }}"'#g' '${{ env.VEHICLECOMMONNAME }} - About this profile.md'
@@ -102,8 +104,9 @@ jobs:
       - name: Package Files
         run: |
           mv ./${{ env.VEHICLE }}/Helios .
-          zip -r output/${{ env.AUTHOR }}_${{ env.VEHICLE }}_V${{ steps.bump_tag.outputs.tag }}.helios16 ./Profile16.json ./LICENSE ./*.md ./Helios/ -x ".git/*" ".github/*" "./Helios/Profiles/*.bak" "./Helios/Profiles/*.hply"
-      - uses: actions/upload-artifact@v3
+          zip -r output/${{ env.AUTHOR }}_${{ env.VEHICLE }}_V${{ steps.bump_tag.outputs.tag }}.helios16 ./Profile16.json ./LICENSE ./*.md ./Helios/ \
+          -x ".git/*" ".github/*" "./Helios/Profiles/*.bak" "./Helios/Profiles/*.hply" "contents.md" "./*/contents.md" "./*/*/contents.md" "./*/*/*/contents.md" "./*/*/*/*/contents.md"
+      - uses: actions/upload-artifact@v4
         with:
           name: ${{ env.AUTHOR }} ${{ env.VEHICLECOMMONNAME }} V${{ steps.bump_tag.outputs.tag }} helios16 profile package
           path: output/${{ env.AUTHOR }}_${{ env.VEHICLE }}_V${{ steps.bump_tag.outputs.tag }}.helios16
