@@ -1,4 +1,4 @@
-[![CreateHelios16]
+[![CreateHelios16](https://github.com/HeliosProfiles/DCS-Spitfire-LFMkIX-Profile-By-MadKreator37/actions/workflows/BuildProfilePackage.yml/badge.svg)](https://github.com/HeliosProfiles/DCS-Spitfire-LFMkIX-Profile-By-MadKreator37/actions/workflows/BuildProfilePackage.yml)
 # DCS Spitfire LFMkIX Helios Profiles by MadKreator37 
 ## Download the Profile helios16 package from [the __Assets__ section here](https://github.com/HeliosProfiles/DCS-Spitfire-LFMkIX-Profile-By-MadKreator37/releases)
 This is a Helios profile for the Spitfire LFMkIX designed for DCS World and contributed by @MadKreator37 . 
