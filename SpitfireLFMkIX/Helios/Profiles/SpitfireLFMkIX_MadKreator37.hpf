@@ -12,7 +12,7 @@
       <Children />
     </Monitor>
     <Monitor>
-      <Location>940,2160</Location>
+      <Location>932,2160</Location>
       <Size>1920,1080</Size>
       <Hidden>False</Hidden>
       <Orientation>DMDO_DEFAULT</Orientation>
@@ -109,7 +109,7 @@
           <Image>MadKreator37\Spitfire_LFMkIX\Sphere_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <DefaultOpacity>0.0954418858988558</DefaultOpacity>
+          <DefaultOpacity>0.118929388590132</DefaultOpacity>
           <Interaction>
             <AllowInteraction>False</AllowInteraction>
           </Interaction>
@@ -1011,7 +1011,7 @@
               <Image>MadKreator37\Spitfire_LFMkIX\Sphere_3.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <DefaultOpacity>0.0539053930635042</DefaultOpacity>
+              <DefaultOpacity>0.0539053930635052</DefaultOpacity>
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
@@ -1288,16 +1288,15 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="False">
-              <Image>MadKreator37\Spitfire_LFMkIX\Sphere_2.png</Image>
+              <Image>MadKreator37\Spitfire_LFMkIX\Sphere_4.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <DefaultOpacity>0.0910799436415456</DefaultOpacity>
+              <DefaultOpacity>0.0499768139318133</DefaultOpacity>
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>6,8</Location>
-              <Size>150,150</Size>
-              <Rotation>ROT180</Rotation>
+              <Location>11,10</Location>
+              <Size>157,157</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -1457,7 +1456,7 @@
               <Image>MadKreator37\Spitfire_LFMkIX\Sphere.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <DefaultOpacity>0.0690505803360397</DefaultOpacity>
+              <DefaultOpacity>0.0573068289904011</DefaultOpacity>
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
@@ -1521,7 +1520,7 @@
               <Image>MadKreator37\Spitfire_LFMkIX\Sphere_2.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <DefaultOpacity>0.252169662813058</DefaultOpacity>
+              <DefaultOpacity>0.134732149356676</DefaultOpacity>
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
@@ -1863,20 +1862,6 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="False">
-                  <Image>MadKreator37\Spitfire_LFMkIX\Sphere_3.png</Image>
-                  <Alignment>Stretched</Alignment>
-                  <CornerRadius>0</CornerRadius>
-                  <DefaultOpacity>0.0635432395096631</DefaultOpacity>
-                  <Interaction>
-                    <AllowInteraction>False</AllowInteraction>
-                  </Interaction>
-                  <Location>7,3</Location>
-                  <Size>205,205</Size>
-                  <Rotation>ROT180</Rotation>
-                  <Hidden>False</Hidden>
-                  <Children />
-                </Control>
                 <Control TypeIdentifier="Helios.Base.CustomGauge" Name="ten thou needle" SnapTarget="True" Locked="False">
                   <Location>25,23</Location>
                   <Size>170,170</Size>
@@ -1932,6 +1917,20 @@
                   <MinValue>0</MinValue>
                   <InitialRotation>0</InitialRotation>
                   <RotationTravel>360</RotationTravel>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="False">
+                  <Image>MadKreator37\Spitfire_LFMkIX\Sphere_3.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <DefaultOpacity>0.0752869908553013</DefaultOpacity>
+                  <Interaction>
+                    <AllowInteraction>False</AllowInteraction>
+                  </Interaction>
+                  <Location>17,13</Location>
+                  <Size>180,182</Size>
+                  <Rotation>ROT180</Rotation>
+                  <Hidden>False</Hidden>
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.Base.Image" Name="ring" SnapTarget="False" Locked="False">
@@ -1993,15 +1992,15 @@
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="False">
-                  <Image>MadKreator37\Spitfire_LFMkIX\RAF_Pilot_1.png</Image>
+                  <Image>MadKreator37\Spitfire_LFMkIX\Sphere.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
-                  <DefaultOpacity>0.125292003800065</DefaultOpacity>
+                  <DefaultOpacity>0.107676376781608</DefaultOpacity>
                   <Interaction>
                     <AllowInteraction>False</AllowInteraction>
                   </Interaction>
-                  <Location>34,26</Location>
-                  <Size>150,150</Size>
+                  <Location>27,14</Location>
+                  <Size>162,174</Size>
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
@@ -2047,15 +2046,16 @@
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="False">
-                  <Image>MadKreator37\Spitfire_LFMkIX\Sphere_4.png</Image>
+                  <Image>MadKreator37\Spitfire_LFMkIX\Sphere.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
-                  <DefaultOpacity>0.0401370409975631</DefaultOpacity>
+                  <DefaultOpacity>0.0812401707072967</DefaultOpacity>
                   <Interaction>
                     <AllowInteraction>False</AllowInteraction>
                   </Interaction>
                   <Location>21,18</Location>
-                  <Size>210,210</Size>
+                  <Size>210,221</Size>
+                  <Rotation>ROT180</Rotation>
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
@@ -2166,24 +2166,11 @@
                   <Image>MadKreator37\Spitfire_LFMkIX\Sphere_3.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
-                  <DefaultOpacity>0.0343751217840289</DefaultOpacity>
+                  <DefaultOpacity>0.0461188731296671</DefaultOpacity>
                   <Interaction>
                     <AllowInteraction>False</AllowInteraction>
                   </Interaction>
                   <Location>23,28</Location>
-                  <Size>210,210</Size>
-                  <Hidden>False</Hidden>
-                  <Children />
-                </Control>
-                <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="False">
-                  <Image>MadKreator37\Spitfire_LFMkIX\RAF_Pilot_1.png</Image>
-                  <Alignment>Stretched</Alignment>
-                  <CornerRadius>0</CornerRadius>
-                  <DefaultOpacity>0.0261275094069464</DefaultOpacity>
-                  <Interaction>
-                    <AllowInteraction>False</AllowInteraction>
-                  </Interaction>
-                  <Location>27,29</Location>
                   <Size>210,210</Size>
                   <Hidden>False</Hidden>
                   <Children />
@@ -2230,15 +2217,16 @@
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="False">
-                  <Image>MadKreator37\Spitfire_LFMkIX\Sphere_4.png</Image>
+                  <Image>MadKreator37\Spitfire_LFMkIX\Sphere.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
-                  <DefaultOpacity>0.0454567977491919</DefaultOpacity>
+                  <DefaultOpacity>0.0983036788045645</DefaultOpacity>
                   <Interaction>
                     <AllowInteraction>False</AllowInteraction>
                   </Interaction>
                   <Location>21,23</Location>
-                  <Size>210,210</Size>
+                  <Size>207,207</Size>
+                  <Rotation>ROT180</Rotation>
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
@@ -3402,7 +3390,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Primer invis swipe" SnapTarget="True" Locked="False">
-              <Location>547,108</Location>
+              <Location>535,171</Location>
               <Size>44,139</Size>
               <Rotation>CCW</Rotation>
               <Hidden>False</Hidden>
@@ -3426,7 +3414,7 @@
               <DefaultPosition>One</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Toggle Switch" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="canopy handle" SnapTarget="True" Locked="False">
               <Location>491,2</Location>
               <Size>324,116</Size>
               <Hidden>False</Hidden>
@@ -3870,8 +3858,8 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="gunsight panel" SnapTarget="True" Locked="False">
-          <Location>932,60</Location>
-          <Size>340,150</Size>
+          <Location>959,65</Location>
+          <Size>292,130</Size>
           <Hidden>True</Hidden>
           <Background />
           <Interaction>
@@ -3884,14 +3872,14 @@
               <Image>MadKreator37\Spitfire_LFMkIX\Panels_Bezels_Faces\Gunsight_Base.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>4,11</Location>
-              <Size>330,134</Size>
+              <Location>3,8</Location>
+              <Size>281,115</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomTape" Name="base indicator" SnapTarget="True" Locked="False">
-              <Location>0,77</Location>
-              <Size>340,37</Size>
+              <Location>0,65</Location>
+              <Size>292,30</Size>
               <Hidden>False</Hidden>
               <TapeImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Gunsight_Base_Slider.png</TapeImage>
               <OffFlagImage />
@@ -3926,8 +3914,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomTape" Name="range indicator" SnapTarget="True" Locked="False">
-              <Location>0,26</Location>
-              <Size>340,37</Size>
+              <Location>0,21</Location>
+              <Size>292,30</Size>
               <Hidden>False</Hidden>
               <TapeImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Gunsight_Range_Slider.png</TapeImage>
               <OffFlagImage />
@@ -3962,8 +3950,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PotentiometerWithTranslate" Name="base swipe" SnapTarget="True" Locked="False">
-              <Location>0,78</Location>
-              <Size>340,54</Size>
+              <Location>0,66</Location>
+              <Size>292,46</Size>
               <Hidden>False</Hidden>
               <MetricImage>MadKreator37\Spitfire_LFMkIX\Transparent_Image.png</MetricImage>
               <InitialValueRotation>0</InitialValueRotation>
@@ -3974,7 +3962,7 @@
               <RotationTravel>360</RotationTravel>
               <InitialValueTranslationX>0.5</InitialValueTranslationX>
               <StepValueTranslationX>0.025</StepValueTranslationX>
-              <MaxValueTranslationX>1</MaxValueTranslationX>
+              <MaxValueTranslationX>0.858823529411765</MaxValueTranslationX>
               <MinValueTranslationX>0</MinValueTranslationX>
               <InitialTranslationX>0</InitialTranslationX>
               <TranslationTravelX>1</TranslationTravelX>
@@ -3996,8 +3984,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PotentiometerWithTranslate" Name="range swipe" SnapTarget="True" Locked="False">
-              <Location>0,8</Location>
-              <Size>340,55</Size>
+              <Location>0,6</Location>
+              <Size>292,47</Size>
               <Hidden>False</Hidden>
               <MetricImage>MadKreator37\Spitfire_LFMkIX\Transparent_Image.png</MetricImage>
               <InitialValueRotation>0</InitialValueRotation>
@@ -4008,7 +3996,7 @@
               <RotationTravel>360</RotationTravel>
               <InitialValueTranslationX>0.5</InitialValueTranslationX>
               <StepValueTranslationX>0.025</StepValueTranslationX>
-              <MaxValueTranslationX>1</MaxValueTranslationX>
+              <MaxValueTranslationX>0.858823529411765</MaxValueTranslationX>
               <MinValueTranslationX>0</MinValueTranslationX>
               <InitialTranslationX>0</InitialTranslationX>
               <TranslationTravelX>1</TranslationTravelX>
@@ -4031,22 +4019,32 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel.Timer" Name="Splash Screen" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel.Timer" Name="Splash Screen" SnapTarget="True" Locked="True">
           <Location>522,347</Location>
           <Size>856,478</Size>
           <Hidden>False</Hidden>
-          <Background>
-            <Image>MadKreator37\Spitfire_LFMkIX\Splash_Screen.png</Image>
-            <ImageAlignment>Stretched</ImageAlignment>
-          </Background>
+          <Background />
           <Interaction>
             <AllowInteractionFull>False</AllowInteractionFull>
             <AllowInteractionNone>True</AllowInteractionNone>
             <AllowInteractionLegacy>False</AllowInteractionLegacy>
           </Interaction>
           <TimerEnabled>True</TimerEnabled>
-          <TimerInterval>5</TimerInterval>
+          <TimerInterval>5.5</TimerInterval>
           <Children>
+            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="False">
+              <Image>MadKreator37\Spitfire_LFMkIX\Splash_Screen.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <DefaultOpacity>0</DefaultOpacity>
+              <Interaction>
+                <AllowInteraction>False</AllowInteraction>
+              </Interaction>
+              <Location>0,0</Location>
+              <Size>856,471</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
             <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome" SnapTarget="False" Locked="False">
               <Location>116,8</Location>
               <Size>44,31</Size>
@@ -4063,7 +4061,7 @@
                 <UseThresholdValues>True</UseThresholdValues>
                 <InitialValue>0</InitialValue>
                 <MinimumValue>0</MinimumValue>
-                <MaximumValue>24</MaximumValue>
+                <MaximumValue>30</MaximumValue>
               </Thresholds>
               <Children />
             </Control>
@@ -4146,9 +4144,28 @@
               </Font>
               <Text />
               <ScalingMode>None</ScalingMode>
-              <Location>125,406</Location>
+              <Location>125,404</Location>
               <Size>439,65</Size>
               <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 2" SnapTarget="False" Locked="False">
+              <Location>478,26</Location>
+              <Size>96,96</Size>
+              <Hidden>False</Hidden>
+              <TickInterval>0.01</TickInterval>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add" SnapTarget="False" Locked="False">
+              <Location>573,21</Location>
+              <Size>96,96</Size>
+              <Hidden>False</Hidden>
+              <Thresholds>
+                <UseThresholdValues>True</UseThresholdValues>
+                <InitialValue>0</InitialValue>
+                <MinimumValue>0</MinimumValue>
+                <MaximumValue>1</MaximumValue>
+              </Thresholds>
               <Children />
             </Control>
           </Children>
@@ -4156,7 +4173,7 @@
       </Children>
     </Monitor>
     <Monitor>
-      <Location>3840,4</Location>
+      <Location>3840,0</Location>
       <Size>5120,1440</Size>
       <Hidden>False</Hidden>
       <Orientation>DMDO_DEFAULT</Orientation>
@@ -4165,7 +4182,7 @@
       <Children />
     </Monitor>
     <Monitor>
-      <Location>3840,1463</Location>
+      <Location>3840,1453</Location>
       <Size>1920,1080</Size>
       <Hidden>False</Hidden>
       <Orientation>DMDO_DEFAULT</Orientation>
@@ -4189,6 +4206,11 @@
       <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
       <Action Target="Visual;Monitor 2.Splash Screen.trigger panel;Helios.Panel.Timer;trigger panel" Name="Timer.set.Enable" />
       <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add;Helios.Base.SimpleComputationWire;SimpleComputationalWire add" Name="set.Numeric Signal" />
+      <StaticValue>0</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS SpitfireLFMkIX" Name="Lights.Nav Lights On/Off.changed" />
@@ -5246,7 +5268,7 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Start Panel.Toggle Switch;Helios.Base.ToggleSwitch;Toggle Switch" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 2.Start Panel.canopy handle;Helios.Base.ToggleSwitch;canopy handle" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS SpitfireLFMkIX" Name="Cockpit.set.Canopy Open/Close" />
       <TriggerValue />
     </Binding>
@@ -5541,6 +5563,16 @@
       <StaticValue>1.0</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel;Helios.Panel.Timer;trigger panel" Name="hidden" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2;Helios.Special.Metronome;Metronome 2" Name="Metronome.set.Default Interval" />
+      <StaticValue>.03</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel;Helios.Panel.Timer;trigger panel" Name="hidden" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2;Helios.Special.Metronome;Metronome 2" Name="Metronome.set.Enable" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome 1;Helios.Special.Metronome;Metronome 1" Name="Metronome Tick" />
       <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire 1" Name="set.Numeric addition Value" />
       <StaticValue>1</StaticValue>
@@ -5548,12 +5580,27 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire 1" Name="Numeric Signal.changed" />
       <Action Target="Visual;Monitor 2.Splash Screen.Splash Screen 1;Helios.Base.Text;Splash Screen 1" Name="set.Text" />
-      <LuaScript>return(string.sub("_ProfileVersionNumber _BuildDate",0,TriggerValue))</LuaScript>
+      <LuaScript>return(string.sub("_ProfileVersionNumber       _BuildDate",0,TriggerValue))</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire 1" Name="Upper/Lower threshold breach.changed" />
       <Action Target="Visual;Monitor 2.Splash Screen.Metronome 1;Helios.Special.Metronome;Metronome 1" Name="Metronome.set.Enable" />
       <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome 2;Helios.Special.Metronome;Metronome 2" Name="Metronome Tick" />
+      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add;Helios.Base.SimpleComputationWire;SimpleComputationalWire add" Name="set.Numeric addition Value" />
+      <StaticValue>.01</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add;Helios.Base.SimpleComputationWire;SimpleComputationalWire add" Name="Upper/Lower threshold breach.changed" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2;Helios.Special.Metronome;Metronome 2" Name="Metronome.set.Enable" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add;Helios.Base.SimpleComputationWire;SimpleComputationalWire add" Name="Numeric Signal.changed" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Translucent Image;Helios.Base.ImageTranslucent;Translucent Image" Name="set.opacity" />
+      <TriggerValue />
     </Binding>
   </Bindings>
 </HeliosProfile>
