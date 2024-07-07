@@ -4032,7 +4032,7 @@
           <TimerEnabled>True</TimerEnabled>
           <TimerInterval>5.5</TimerInterval>
           <Children>
-            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="True">
               <Image>MadKreator37\Spitfire_LFMkIX\Splash_Screen.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
@@ -4061,7 +4061,7 @@
                 <UseThresholdValues>True</UseThresholdValues>
                 <InitialValue>0</InitialValue>
                 <MinimumValue>0</MinimumValue>
-                <MaximumValue>30</MaximumValue>
+                <MaximumValue>25</MaximumValue>
               </Thresholds>
               <Children />
             </Control>
@@ -4120,7 +4120,7 @@
                 <UseThresholdValues>True</UseThresholdValues>
                 <InitialValue>0</InitialValue>
                 <MinimumValue>0</MinimumValue>
-                <MaximumValue>18</MaximumValue>
+                <MaximumValue>30</MaximumValue>
               </Thresholds>
               <Children />
             </Control>
@@ -4144,8 +4144,8 @@
               </Font>
               <Text />
               <ScalingMode>None</ScalingMode>
-              <Location>77,404</Location>
-              <Size>530,61</Size>
+              <Location>20,415</Location>
+              <Size>635,63</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
