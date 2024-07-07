@@ -1694,7 +1694,7 @@
       "description": "Elevation in feet",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.4f",
           "id": "26"
         }
       ],
@@ -1721,7 +1721,7 @@
       "description": "Elevation in Thousands Feet",
       "exports": [
         {
-          "format": "%.3f",
+          "format": "%.4f",
           "id": "27"
         }
       ],
