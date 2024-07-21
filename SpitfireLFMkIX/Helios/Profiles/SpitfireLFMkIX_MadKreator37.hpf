@@ -3820,7 +3820,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.Text" Name="misc label 1" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Text" Name="CC label" SnapTarget="True" Locked="True">
           <FillBackground>False</FillBackground>
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#D8E7E7E7</FontColor>
@@ -3845,7 +3845,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="misc panel sw 1" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="CC switch" SnapTarget="True" Locked="True">
           <Location>1470,863</Location>
           <Size>46,53</Size>
           <Hidden>False</Hidden>
@@ -4698,6 +4698,11 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS SpitfireLFMkIX" Name="Engine.Carburetor Air Control.changed" />
+      <Action Target="Visual;Monitor 2.Start Panel.carb air lever;Helios.Base.ToggleSwitch;carb air lever" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.weapon switch;Helios.Base.ToggleSwitch;weapon switch" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS SpitfireLFMkIX" Name="Weapons.set.Safety" />
       <TriggerValue />
@@ -5043,11 +5048,6 @@
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.reset sw;Helios.Base.ToggleSwitch;reset sw" Name="position one.exited" />
-      <Action Target="Visual;Monitor 2.misc panel sw 1;Helios.Base.ToggleSwitch;misc panel sw 1" Name="set.position" />
-      <StaticValue>2</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Rotary Switch;Helios.Base.RotarySwitch;Rotary Switch" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS SpitfireLFMkIX" Name="Cockpit.set.Oxygen Valve" />
       <TriggerValue />
@@ -5220,6 +5220,11 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Start Panel.tank pressure switch;Helios.Base.RotarySwitch;tank pressure switch" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS SpitfireLFMkIX" Name="Engine.set.Fuel Tank Pressure On/Off" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Start Panel.carb air lever;Helios.Base.ToggleSwitch;carb air lever" Name="position.changed" />
+      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS SpitfireLFMkIX" Name="Engine.set.Carburetor Air Control" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -5508,12 +5513,12 @@
       <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.misc panel sw 1;Helios.Base.ToggleSwitch;misc panel sw 1" Name="position two.entered" />
+      <Trigger Source="Visual;Monitor 2.CC switch;Helios.Base.ToggleSwitch;CC switch" Name="position two.entered" />
       <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="hide control center" />
       <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.misc panel sw 1;Helios.Base.ToggleSwitch;misc panel sw 1" Name="position one.entered" />
+      <Trigger Source="Visual;Monitor 2.CC switch;Helios.Base.ToggleSwitch;CC switch" Name="position one.entered" />
       <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="show control center" />
       <StaticValue />
     </Binding>
