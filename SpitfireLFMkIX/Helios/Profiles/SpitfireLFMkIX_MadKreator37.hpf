@@ -4650,7 +4650,7 @@
         <Control TypeIdentifier="Helios.Panel.Timer" Name="Splash Screen" SnapTarget="True" Locked="False">
           <Location>522,347</Location>
           <Size>856,478</Size>
-          <Hidden>True</Hidden>
+          <Hidden>False</Hidden>
           <Background />
           <Interaction>
             <AllowInteractionFull>False</AllowInteractionFull>
