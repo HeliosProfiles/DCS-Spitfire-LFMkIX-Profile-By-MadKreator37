@@ -178,7 +178,7 @@
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#D8E7E7E7</FontColor>
           <Font>
-            <FontFamily>MS 33558</FontFamily>
+            <FontFamily>MS 33558 Regular</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>Normal</FontWeight>
             <FontSize>14</FontSize>
@@ -2114,7 +2114,7 @@
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#D8E7E7E7</FontColor>
           <Font>
-            <FontFamily>MS 33558</FontFamily>
+            <FontFamily>MS 33558 Regular</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>Normal</FontWeight>
             <FontSize>14</FontSize>
@@ -2151,7 +2151,7 @@
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#D8E7E7E7</FontColor>
           <Font>
-            <FontFamily>MS 33558</FontFamily>
+            <FontFamily>MS 33558 Regular</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>Normal</FontWeight>
             <FontSize>14</FontSize>
@@ -2188,7 +2188,7 @@
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#D8E7E7E7</FontColor>
           <Font>
-            <FontFamily>MS 33558</FontFamily>
+            <FontFamily>MS 33558 Regular</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>Normal</FontWeight>
             <FontSize>14</FontSize>
@@ -2225,7 +2225,7 @@
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#D8E7E7E7</FontColor>
           <Font>
-            <FontFamily>MS 33558</FontFamily>
+            <FontFamily>MS 33558 Regular</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>Normal</FontWeight>
             <FontSize>14</FontSize>
@@ -2262,7 +2262,7 @@
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#D8E7E7E7</FontColor>
           <Font>
-            <FontFamily>MS 33558</FontFamily>
+            <FontFamily>MS 33558 Regular</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>Normal</FontWeight>
             <FontSize>14</FontSize>
@@ -3559,7 +3559,7 @@
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#D8E7E7E7</FontColor>
           <Font>
-            <FontFamily>MS 33558</FontFamily>
+            <FontFamily>MS 33558 Regular</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>Normal</FontWeight>
             <FontSize>14</FontSize>
