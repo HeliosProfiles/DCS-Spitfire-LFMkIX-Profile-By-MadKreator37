@@ -12,14 +12,14 @@
       <Children />
     </Monitor>
     <Monitor>
-      <Location>992,2160</Location>
+      <Location>958,2160</Location>
       <Size>1920,1080</Size>
       <Hidden>False</Hidden>
       <Orientation>DMDO_DEFAULT</Orientation>
       <AlwaysOnTop>True</AlwaysOnTop>
       <Background />
       <Children>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="hud glass black" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="hud glass black" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Black_Square.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -32,7 +32,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="hud glass" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="hud glass" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Hud_Glass.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -60,7 +60,7 @@
           </Interaction>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="RUDDER TRIM TAPE" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="RUDDER TRIM TAPE" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Needlesss_Pointers_Tapes\Rudder_Trim_Tape.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -69,7 +69,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.CustomTape" Name="RUDDER TRIM LINE GAUGE" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.CustomTape" Name="RUDDER TRIM LINE GAUGE" SnapTarget="True" Locked="False">
           <Location>29,760</Location>
           <Size>248,57</Size>
           <Hidden>False</Hidden>
@@ -105,7 +105,7 @@
           <MaxInputRotation>1</MaxInputRotation>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="rudder trim reflection" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="rudder trim reflection" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Sphere_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -118,7 +118,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="rudder trim bezel" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="rudder trim bezel" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Panels_Bezels_Faces\Rudder_Trim_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -127,7 +127,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Text" Name="rudder trim label" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Text" Name="rudder trim label" SnapTarget="True" Locked="False">
           <FillBackground>False</FillBackground>
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#D1E5E5E5</FontColor>
@@ -152,7 +152,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="weapon base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="weapon base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Panels_Bezels_Faces\Gunsight_Sw_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -161,7 +161,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="weapon switch" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="weapon switch" SnapTarget="True" Locked="False">
           <Location>448,967</Location>
           <Size>26,80</Size>
           <Hidden>False</Hidden>
@@ -173,7 +173,7 @@
           <DefaultPosition>One</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Text" Name="weapon label" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Text" Name="weapon label" SnapTarget="True" Locked="False">
           <FillBackground>False</FillBackground>
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#D8E7E7E7</FontColor>
@@ -198,17 +198,17 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard right base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard right base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1435,1012</Location>
+          <Location>1392,1012</Location>
           <Size>55,61</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard right button" SnapTarget="True" Locked="True">
-          <Location>1443,1018</Location>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard right button" SnapTarget="True" Locked="False">
+          <Location>1400,1018</Location>
           <Size>37,41</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
@@ -235,35 +235,35 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Kneeboard base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Kneeboard base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1312,1012</Location>
-          <Size>135,61</Size>
+          <Location>1338,957</Location>
+          <Size>115,61</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard left base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard left base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1267,1012</Location>
+          <Location>1342,1012</Location>
           <Size>55,61</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Markpoint Base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Markpoint Base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1333,958</Location>
+          <Location>1255,1014</Location>
           <Size>95,58</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="kneeboard left" SnapTarget="True" Locked="True">
-          <Location>1275,1018</Location>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="kneeboard left" SnapTarget="True" Locked="False">
+          <Location>1350,1018</Location>
           <Size>37,41</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
@@ -290,9 +290,9 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard button" SnapTarget="True" Locked="True">
-          <Location>1330,1018</Location>
-          <Size>95,41</Size>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard button" SnapTarget="True" Locked="False">
+          <Location>1354,963</Location>
+          <Size>78,41</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
           <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
@@ -303,7 +303,7 @@
               <FontFamily>Franklin Gothic</FontFamily>
               <FontStyle>Normal</FontStyle>
               <FontWeight>Normal</FontWeight>
-              <FontSize>14</FontSize>
+              <FontSize>13</FontSize>
               <HorizontalAlignment>Center</HorizontalAlignment>
               <VerticalAlignment>Center</VerticalAlignment>
               <Padding>
@@ -318,8 +318,8 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Mark button" SnapTarget="True" Locked="True">
-          <Location>1346,964</Location>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Mark button" SnapTarget="True" Locked="False">
+          <Location>1268,1020</Location>
           <Size>66,39</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
@@ -346,247 +346,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="f1 base" SnapTarget="False" Locked="True">
-          <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
-          <Alignment>Stretched</Alignment>
-          <CornerRadius>0</CornerRadius>
-          <Location>527,961</Location>
-          <Size>61,61</Size>
-          <Hidden>False</Hidden>
-          <Children />
-        </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button" SnapTarget="True" Locked="True">
-          <Location>536,967</Location>
-          <Size>41,41</Size>
-          <Hidden>False</Hidden>
-          <Type>Momentary</Type>
-          <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
-          <PushedImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
-          <Text>
-            <Color>#FFE3D38B</Color>
-            <Font>
-              <FontFamily>Franklin Gothic</FontFamily>
-              <FontStyle>Normal</FontStyle>
-              <FontWeight>Normal</FontWeight>
-              <FontSize>18</FontSize>
-              <HorizontalAlignment>Center</HorizontalAlignment>
-              <VerticalAlignment>Center</VerticalAlignment>
-              <Padding>
-                <Left>0</Left>
-                <Top>0</Top>
-                <Right>0</Right>
-                <Bottom>0</Bottom>
-              </Padding>
-            </Font>
-            <Text>F1</Text>
-            <ScalingMode>None</ScalingMode>
-          </Text>
-          <Children />
-        </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="f2 base" SnapTarget="False" Locked="True">
-          <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
-          <Alignment>Stretched</Alignment>
-          <CornerRadius>0</CornerRadius>
-          <Location>583,961</Location>
-          <Size>61,61</Size>
-          <Hidden>False</Hidden>
-          <Children />
-        </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="f2 button" SnapTarget="True" Locked="True">
-          <Location>592,967</Location>
-          <Size>41,41</Size>
-          <Hidden>False</Hidden>
-          <Type>Momentary</Type>
-          <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
-          <PushedImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
-          <Text>
-            <Color>#FFE3D38B</Color>
-            <Font>
-              <FontFamily>Franklin Gothic</FontFamily>
-              <FontStyle>Normal</FontStyle>
-              <FontWeight>Normal</FontWeight>
-              <FontSize>18</FontSize>
-              <HorizontalAlignment>Center</HorizontalAlignment>
-              <VerticalAlignment>Center</VerticalAlignment>
-              <Padding>
-                <Left>0</Left>
-                <Top>0</Top>
-                <Right>0</Right>
-                <Bottom>0</Bottom>
-              </Padding>
-            </Font>
-            <Text>F2</Text>
-            <ScalingMode>None</ScalingMode>
-          </Text>
-          <Children />
-        </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="f10 base" SnapTarget="False" Locked="True">
-          <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
-          <Alignment>Stretched</Alignment>
-          <CornerRadius>0</CornerRadius>
-          <Location>527,1019</Location>
-          <Size>61,61</Size>
-          <Hidden>False</Hidden>
-          <Children />
-        </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="f10 button" SnapTarget="True" Locked="True">
-          <Location>536,1025</Location>
-          <Size>41,41</Size>
-          <Hidden>False</Hidden>
-          <Type>Momentary</Type>
-          <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
-          <PushedImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
-          <Text>
-            <Color>#FFE3D38B</Color>
-            <Font>
-              <FontFamily>Franklin Gothic</FontFamily>
-              <FontStyle>Normal</FontStyle>
-              <FontWeight>Normal</FontWeight>
-              <FontSize>18</FontSize>
-              <HorizontalAlignment>Center</HorizontalAlignment>
-              <VerticalAlignment>Center</VerticalAlignment>
-              <Padding>
-                <Left>0</Left>
-                <Top>0</Top>
-                <Right>0</Right>
-                <Bottom>0</Bottom>
-              </Padding>
-            </Font>
-            <Text>F10</Text>
-            <ScalingMode>None</ScalingMode>
-          </Text>
-          <Children />
-        </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="spare base" SnapTarget="False" Locked="True">
-          <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
-          <Alignment>Stretched</Alignment>
-          <CornerRadius>0</CornerRadius>
-          <Location>583,1019</Location>
-          <Size>61,61</Size>
-          <Hidden>False</Hidden>
-          <Children />
-        </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Spare button" SnapTarget="True" Locked="True">
-          <Location>592,1025</Location>
-          <Size>41,41</Size>
-          <Hidden>False</Hidden>
-          <Type>Momentary</Type>
-          <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
-          <PushedImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
-          <Children />
-        </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="rearm base" SnapTarget="False" Locked="True">
-          <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
-          <Alignment>Stretched</Alignment>
-          <CornerRadius>0</CornerRadius>
-          <Location>653,967</Location>
-          <Size>98,35</Size>
-          <Hidden>False</Hidden>
-          <Children />
-        </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="rearm button" SnapTarget="True" Locked="True">
-          <Location>666,971</Location>
-          <Size>69,23</Size>
-          <Hidden>False</Hidden>
-          <Type>Momentary</Type>
-          <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
-          <PushedImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
-          <Text>
-            <Color>#FFE3D38B</Color>
-            <Font>
-              <FontFamily>Franklin Gothic</FontFamily>
-              <FontStyle>Normal</FontStyle>
-              <FontWeight>Normal</FontWeight>
-              <FontSize>14</FontSize>
-              <HorizontalAlignment>Center</HorizontalAlignment>
-              <VerticalAlignment>Center</VerticalAlignment>
-              <Padding>
-                <Left>0</Left>
-                <Top>0</Top>
-                <Right>0</Right>
-                <Bottom>0</Bottom>
-              </Padding>
-            </Font>
-            <Text>REARM</Text>
-            <ScalingMode>None</ScalingMode>
-          </Text>
-          <Children />
-        </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="brief base" SnapTarget="False" Locked="True">
-          <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
-          <Alignment>Stretched</Alignment>
-          <CornerRadius>0</CornerRadius>
-          <Location>653,1002</Location>
-          <Size>98,35</Size>
-          <Hidden>False</Hidden>
-          <Children />
-        </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="brief buttin" SnapTarget="True" Locked="True">
-          <Location>666,1006</Location>
-          <Size>69,23</Size>
-          <Hidden>False</Hidden>
-          <Type>Momentary</Type>
-          <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
-          <PushedImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
-          <Text>
-            <Color>#FFE3D38B</Color>
-            <Font>
-              <FontFamily>Franklin Gothic</FontFamily>
-              <FontStyle>Normal</FontStyle>
-              <FontWeight>Normal</FontWeight>
-              <FontSize>14</FontSize>
-              <HorizontalAlignment>Center</HorizontalAlignment>
-              <VerticalAlignment>Center</VerticalAlignment>
-              <Padding>
-                <Left>0</Left>
-                <Top>0</Top>
-                <Right>0</Right>
-                <Bottom>0</Bottom>
-              </Padding>
-            </Font>
-            <Text>BRIEF</Text>
-            <ScalingMode>None</ScalingMode>
-          </Text>
-          <Children />
-        </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="esc base" SnapTarget="False" Locked="True">
-          <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
-          <Alignment>Stretched</Alignment>
-          <CornerRadius>0</CornerRadius>
-          <Location>653,1037</Location>
-          <Size>98,35</Size>
-          <Hidden>False</Hidden>
-          <Children />
-        </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="esc button" SnapTarget="True" Locked="True">
-          <Location>666,1041</Location>
-          <Size>69,23</Size>
-          <Hidden>False</Hidden>
-          <Type>Momentary</Type>
-          <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
-          <PushedImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
-          <Text>
-            <Color>#FFE3D38B</Color>
-            <Font>
-              <FontFamily>Franklin Gothic</FontFamily>
-              <FontStyle>Normal</FontStyle>
-              <FontWeight>Normal</FontWeight>
-              <FontSize>14</FontSize>
-              <HorizontalAlignment>Center</HorizontalAlignment>
-              <VerticalAlignment>Center</VerticalAlignment>
-              <Padding>
-                <Left>0</Left>
-                <Top>0</Top>
-                <Right>0</Right>
-                <Bottom>0</Bottom>
-              </Padding>
-            </Font>
-            <Text>ESC</Text>
-            <ScalingMode>None</ScalingMode>
-          </Text>
-          <Children />
-        </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="nav light sw base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="nav light sw base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Panels_Bezels_Faces\Nav_Light_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -595,7 +355,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="nav light switch" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="nav light switch" SnapTarget="True" Locked="False">
           <Location>290,109</Location>
           <Size>25,73</Size>
           <Hidden>False</Hidden>
@@ -607,7 +367,7 @@
           <DefaultPosition>One</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Oxy warning decor" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Oxy warning decor" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Panels_Bezels_Faces\Oxy_Supply Tag.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -616,7 +376,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="gunsight power base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="gunsight power base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Panels_Bezels_Faces\Gunsight_Sw_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -625,7 +385,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gunsight sw" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="gunsight sw" SnapTarget="True" Locked="False">
           <Location>782,146</Location>
           <Size>25,72</Size>
           <Hidden>False</Hidden>
@@ -637,7 +397,7 @@
           <DefaultPosition>One</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Potentiometer" Name="gunsight bright" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Potentiometer" Name="gunsight bright" SnapTarget="True" Locked="False">
           <Location>870,85</Location>
           <Size>70,70</Size>
           <Hidden>False</Hidden>
@@ -650,7 +410,7 @@
           <RotationTravel>195.263636363636</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="gear position base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="gear position base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Panels_Bezels_Faces\Gear_Indicator_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -659,7 +419,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="gear up ind" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="gear up ind" SnapTarget="True" Locked="False">
           <OnImage>MadKreator37\Spitfire_LFMkIX\Indicators\Gear_Up.png</OnImage>
           <OffImage>MadKreator37\Spitfire_LFMkIX\Transparent_Image.png</OffImage>
           <Font>
@@ -685,7 +445,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="gear down ind" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="gear down ind" SnapTarget="True" Locked="False">
           <OnImage>MadKreator37\Spitfire_LFMkIX\Indicators\Gear_Down.png</OnImage>
           <OffImage>MadKreator37\Spitfire_LFMkIX\Transparent_Image.png</OffImage>
           <Font>
@@ -711,7 +471,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="sup chge base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="sup chge base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Panels_Bezels_Faces\Sup_Chg_Mode_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -720,7 +480,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="sup chge gear ind" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="sup chge gear ind" SnapTarget="True" Locked="False">
           <OnImage>MadKreator37\Spitfire_LFMkIX\Indicators\Sup_Chg_Ind.png</OnImage>
           <OffImage>MadKreator37\Spitfire_LFMkIX\Transparent_Image.png</OffImage>
           <Font>
@@ -746,7 +506,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="sup chge mode sw" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="sup chge mode sw" SnapTarget="True" Locked="False">
           <Location>1529,504</Location>
           <Size>31,35</Size>
           <Hidden>False</Hidden>
@@ -758,7 +518,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="fuel press base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="fuel press base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Panels_Bezels_Faces\Fuel_Pressure_Warning_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -767,7 +527,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="fuel press ind" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="fuel press ind" SnapTarget="True" Locked="False">
           <OnImage>MadKreator37\Spitfire_LFMkIX\Indicators\Fuel_Pressure_Warning.png</OnImage>
           <OffImage>MadKreator37\Spitfire_LFMkIX\Transparent_Image.png</OffImage>
           <Font>
@@ -793,7 +553,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Potentiometer" Name="port flood" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Potentiometer" Name="port flood" SnapTarget="True" Locked="False">
           <Location>845,964</Location>
           <Size>61,61</Size>
           <Hidden>False</Hidden>
@@ -806,7 +566,7 @@
           <RotationTravel>360</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Potentiometer" Name="stbd flood" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Potentiometer" Name="stbd flood" SnapTarget="True" Locked="False">
           <Location>996,965</Location>
           <Size>61,62</Size>
           <Hidden>False</Hidden>
@@ -819,7 +579,7 @@
           <RotationTravel>360</RotationTravel>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Magneto base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Magneto base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Panels_Bezels_Faces\Magneto_Switch_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -828,7 +588,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Magneto Switch 2" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Magneto Switch 2" SnapTarget="True" Locked="False">
           <Location>55,907</Location>
           <Size>29,58</Size>
           <Hidden>False</Hidden>
@@ -840,7 +600,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Magneto Switch 1" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Magneto Switch 1" SnapTarget="True" Locked="False">
           <Location>11,906</Location>
           <Size>31,63</Size>
           <Hidden>False</Hidden>
@@ -852,7 +612,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="oil pressure gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="oil pressure gauge" SnapTarget="True" Locked="False">
           <Location>1451,642</Location>
           <Size>89,175</Size>
           <Hidden>False</Hidden>
@@ -923,7 +683,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="oil temp gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="oil temp gauge" SnapTarget="True" Locked="False">
           <Location>1565,644</Location>
           <Size>165,165</Size>
           <Hidden>False</Hidden>
@@ -977,7 +737,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="fuel gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="fuel gauge" SnapTarget="True" Locked="False">
           <Location>1559,835</Location>
           <Size>245,245</Size>
           <Hidden>False</Hidden>
@@ -1031,7 +791,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="rad temp gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="rad temp gauge" SnapTarget="True" Locked="False">
           <Location>1753,643</Location>
           <Size>165,165</Size>
           <Hidden>False</Hidden>
@@ -1085,7 +845,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="boost gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="boost gauge" SnapTarget="True" Locked="False">
           <Location>1651,424</Location>
           <Size>165,165</Size>
           <Hidden>False</Hidden>
@@ -1148,7 +908,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="rpm gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="rpm gauge" SnapTarget="True" Locked="False">
           <Location>1436,181</Location>
           <Size>245,245</Size>
           <Hidden>False</Hidden>
@@ -1202,7 +962,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="voltage gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="voltage gauge" SnapTarget="True" Locked="False">
           <Location>1249,80</Location>
           <Size>155,155</Size>
           <Hidden>False</Hidden>
@@ -1257,7 +1017,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Oxygen qty gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Oxygen qty gauge" SnapTarget="True" Locked="False">
           <Location>301,309</Location>
           <Size>177,177</Size>
           <Hidden>False</Hidden>
@@ -1311,7 +1071,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Oxygen pressure gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Oxygen pressure gauge" SnapTarget="True" Locked="False">
           <Location>122,309</Location>
           <Size>177,177</Size>
           <Hidden>False</Hidden>
@@ -1375,7 +1135,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="clock" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="clock" SnapTarget="True" Locked="False">
           <Location>35,574</Location>
           <Size>166,166</Size>
           <Hidden>False</Hidden>
@@ -1476,7 +1236,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Trim Gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Trim Gauge" SnapTarget="True" Locked="False">
           <Location>311,717</Location>
           <Size>166,166</Size>
           <Hidden>False</Hidden>
@@ -1540,7 +1300,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="brake gauge" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="brake gauge" SnapTarget="True" Locked="False">
           <Location>105,834</Location>
           <Size>246,246</Size>
           <Hidden>False</Hidden>
@@ -1641,7 +1401,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="fuel gauge decor" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="fuel gauge decor" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Panels_Bezels_Faces\Fuel_warning_Tag.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1650,7 +1410,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="fuel check buton base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="fuel check buton base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Panels_Bezels_Faces\Show_Fuel_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1659,7 +1419,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="fuel check button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="fuel check button" SnapTarget="True" Locked="False">
           <Location>1516,1019</Location>
           <Size>50,50</Size>
           <Hidden>False</Hidden>
@@ -1668,7 +1428,7 @@
           <PushedImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Show_Fuel_Pressed.png</PushedImage>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Starter Button Base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Starter Button Base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Panels_Bezels_Faces\Starter_Boost_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1677,7 +1437,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Booster Button Base " SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Booster Button Base " SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Panels_Bezels_Faces\Starter_Boost_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1686,7 +1446,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="starter button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="starter button" SnapTarget="True" Locked="False">
           <Location>1116,974</Location>
           <Size>30,30</Size>
           <Hidden>False</Hidden>
@@ -1695,7 +1455,7 @@
           <PushedImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Start_Boost_Button_Pressed.png</PushedImage>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="booster button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="booster button" SnapTarget="True" Locked="False">
           <Location>1201,975</Location>
           <Size>30,30</Size>
           <Hidden>False</Hidden>
@@ -1704,7 +1464,7 @@
           <PushedImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Start_Boost_Button_Pressed.png</PushedImage>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="booster cover closed" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="booster cover closed" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Start_Boost_Cover_Closed_IMG.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1713,7 +1473,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="booster cover open" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="booster cover open" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Start_Boost_Cover_Open_IMG.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1722,7 +1482,7 @@
           <Hidden>True</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="starter cover closed" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="starter cover closed" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Start_Boost_Cover_Closed_IMG.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1731,7 +1491,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="starter cover open" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="starter cover open" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Start_Boost_Cover_Open_IMG.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1740,7 +1500,7 @@
           <Hidden>True</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="booster coil invis button closed" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="booster coil invis button closed" SnapTarget="True" Locked="False">
           <Location>1189,962</Location>
           <Size>50,50</Size>
           <Hidden>False</Hidden>
@@ -1749,7 +1509,7 @@
           <PushedImage>MadKreator37\Spitfire_LFMkIX\Transparent_Image.png</PushedImage>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="booster coil invis button open" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="booster coil invis button open" SnapTarget="True" Locked="False">
           <Location>1189,1030</Location>
           <Size>50,50</Size>
           <Hidden>True</Hidden>
@@ -1758,7 +1518,7 @@
           <PushedImage>MadKreator37\Spitfire_LFMkIX\Transparent_Image.png</PushedImage>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="start cover invis buttonclosed" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="start cover invis buttonclosed" SnapTarget="True" Locked="False">
           <Location>1106,962</Location>
           <Size>50,50</Size>
           <Hidden>False</Hidden>
@@ -1767,7 +1527,7 @@
           <PushedImage>MadKreator37\Spitfire_LFMkIX\Transparent_Image.png</PushedImage>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="start cover invis button open" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="start cover invis button open" SnapTarget="True" Locked="False">
           <Location>1102,1030</Location>
           <Size>50,50</Size>
           <Hidden>True</Hidden>
@@ -1776,7 +1536,7 @@
           <PushedImage>MadKreator37\Spitfire_LFMkIX\Transparent_Image.png</PushedImage>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Main Gauge Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Main Gauge Panel" SnapTarget="True" Locked="False">
           <Location>465,224</Location>
           <Size>973,732</Size>
           <Hidden>False</Hidden>
@@ -2349,7 +2109,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.Text" Name="radio label" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Text" Name="radio label" SnapTarget="True" Locked="False">
           <FillBackground>False</FillBackground>
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#D8E7E7E7</FontColor>
@@ -2374,7 +2134,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="radio panel sw" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="radio panel sw" SnapTarget="True" Locked="False">
           <Location>1100,876</Location>
           <Size>46,53</Size>
           <Hidden>False</Hidden>
@@ -2386,7 +2146,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Text" Name="misc label" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Text" Name="misc label" SnapTarget="True" Locked="False">
           <FillBackground>False</FillBackground>
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#D8E7E7E7</FontColor>
@@ -2411,7 +2171,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="misc panel sw" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="misc panel sw" SnapTarget="True" Locked="False">
           <Location>1298,876</Location>
           <Size>46,53</Size>
           <Hidden>False</Hidden>
@@ -2423,7 +2183,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Text" Name="flight label" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Text" Name="flight label" SnapTarget="True" Locked="False">
           <FillBackground>False</FillBackground>
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#D8E7E7E7</FontColor>
@@ -2448,7 +2208,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="flight panel sw" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="flight panel sw" SnapTarget="True" Locked="False">
           <Location>1166,876</Location>
           <Size>46,53</Size>
           <Hidden>False</Hidden>
@@ -2460,7 +2220,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Text" Name="start label" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Text" Name="start label" SnapTarget="True" Locked="False">
           <FillBackground>False</FillBackground>
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#D8E7E7E7</FontColor>
@@ -2485,7 +2245,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Start panel sw" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Start panel sw" SnapTarget="True" Locked="False">
           <Location>1232,876</Location>
           <Size>46,53</Size>
           <Hidden>False</Hidden>
@@ -2497,7 +2257,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Text" Name="reset label" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Text" Name="reset label" SnapTarget="True" Locked="False">
           <FillBackground>False</FillBackground>
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#D8E7E7E7</FontColor>
@@ -2522,7 +2282,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="reset sw" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="reset sw" SnapTarget="True" Locked="False">
           <Location>1006,876</Location>
           <Size>46,53</Size>
           <Hidden>False</Hidden>
@@ -2534,7 +2294,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Rotary Switch" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Rotary Switch" SnapTarget="True" Locked="False">
           <Location>219,391</Location>
           <Size>162,162</Size>
           <Hidden>False</Hidden>
@@ -2549,7 +2309,7 @@
           </ClickType>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Compass" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Compass" SnapTarget="True" Locked="False">
           <Location>1646,4</Location>
           <Size>274,274</Size>
           <Hidden>False</Hidden>
@@ -2661,7 +2421,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="CompassLG" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="CompassLG" SnapTarget="True" Locked="False">
           <Location>1414,9</Location>
           <Size>506,506</Size>
           <Hidden>True</Hidden>
@@ -2773,7 +2533,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Gunsight glass pull" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Gunsight glass pull" SnapTarget="True" Locked="False">
           <Location>633,0</Location>
           <Size>104,217</Size>
           <Hidden>False</Hidden>
@@ -2785,7 +2545,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.RotaryEncoderClickable" Name="Clock winding knob" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.RotaryEncoderClickable" Name="Clock winding knob" SnapTarget="True" Locked="False">
           <ButtonClickType>Toggle</ButtonClickType>
           <PushedImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Clock_Knob_Pulled.png</PushedImage>
           <UnpushedImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Clock_Knob_Norm.png</UnpushedImage>
@@ -2802,7 +2562,7 @@
           </ClickType>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="flap base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="flap base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Panels_Bezels_Faces\Flaps_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -2811,7 +2571,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="flap lever" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="flap lever" SnapTarget="True" Locked="False">
           <Location>352,6</Location>
           <Size>115,306</Size>
           <Hidden>False</Hidden>
@@ -2823,7 +2583,7 @@
           <DefaultPosition>One</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Misc Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Misc Panel" SnapTarget="True" Locked="False">
           <Location>1370,0</Location>
           <Size>550,303</Size>
           <Hidden>True</Hidden>
@@ -3078,7 +2838,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Start Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Start Panel" SnapTarget="True" Locked="False">
           <Location>477,303</Location>
           <Size>945,568</Size>
           <Hidden>True</Hidden>
@@ -3402,7 +3162,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Radio Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Radio Panel" SnapTarget="True" Locked="False">
           <Location>0,0</Location>
           <Size>477,486</Size>
           <Hidden>True</Hidden>
@@ -3681,7 +3441,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Flight Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Flight Panel" SnapTarget="True" Locked="False">
           <Location>0,486</Location>
           <Size>477,594</Size>
           <Hidden>True</Hidden>
@@ -3794,7 +3554,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.Text" Name="CC label" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Text" Name="CC label" SnapTarget="True" Locked="False">
           <FillBackground>False</FillBackground>
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#D8E7E7E7</FontColor>
@@ -3814,13 +3574,13 @@
           </Font>
           <Text>CONTROL      CENTER</Text>
           <ScalingMode>None</ScalingMode>
-          <Location>1451,955</Location>
+          <Location>658,1028</Location>
           <Size>84,38</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="CC switch" SnapTarget="True" Locked="True">
-          <Location>1470,907</Location>
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="CC switch" SnapTarget="True" Locked="False">
+          <Location>678,969</Location>
           <Size>46,53</Size>
           <Hidden>False</Hidden>
           <SwitchType>OnOn</SwitchType>
@@ -3831,7 +3591,7 @@
           <DefaultPosition>One</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="gunsight panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="gunsight panel" SnapTarget="True" Locked="False">
           <Location>959,65</Location>
           <Size>292,130</Size>
           <Hidden>True</Hidden>
@@ -3993,17 +3753,17 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Keys base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Keys base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1449,831</Location>
+          <Location>1256,956</Location>
           <Size>89,61</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Keys button " SnapTarget="True" Locked="True">
-          <Location>1462,837</Location>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Keys button " SnapTarget="True" Locked="False">
+          <Location>1269,962</Location>
           <Size>63,41</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
@@ -4030,8 +3790,8 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="F_Key Panel ACC" SnapTarget="True" Locked="True">
-          <Location>1444,420</Location>
+        <Control TypeIdentifier="Helios.Panel" Name="F_Key Panel ACC" SnapTarget="True" Locked="False">
+          <Location>1443,674</Location>
           <Size>468,395</Size>
           <Hidden>True</Hidden>
           <Background>
@@ -4541,7 +4301,7 @@
               <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
               <PushedImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
               <Text>
-                <Color>#FFE3D38B</Color>
+                <Color>#FFABDA9A</Color>
                 <Font>
                   <FontFamily>Franklin Gothic</FontFamily>
                   <FontStyle>Normal</FontStyle>
@@ -4562,14 +4322,14 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1 1 1 2" SnapTarget="True" Locked="True">
-              <Location>357,117</Location>
-              <Size>86,68</Size>
+              <Location>357,209</Location>
+              <Size>86,34</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
               <PushedImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
               <Text>
-                <Color>#FFE3D38B</Color>
+                <Color>#FFABDA9A</Color>
                 <Font>
                   <FontFamily>Franklin Gothic</FontFamily>
                   <FontStyle>Normal</FontStyle>
@@ -4590,14 +4350,14 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1 1 1 1 1 1 1 1 2" SnapTarget="True" Locked="True">
-              <Location>357,210</Location>
-              <Size>86,68</Size>
+              <Location>357,244</Location>
+              <Size>86,34</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
               <PushedImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
               <Text>
-                <Color>#FFE3D38B</Color>
+                <Color>#FFABDA9A</Color>
                 <Font>
                   <FontFamily>Franklin Gothic</FontFamily>
                   <FontStyle>Normal</FontStyle>
@@ -4645,11 +4405,67 @@
               </Text>
               <Children />
             </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1 1 2 1" SnapTarget="True" Locked="True">
+              <Location>356,117</Location>
+              <Size>43,68</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
+              <Text>
+                <Color>#FFE3D38B</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>16</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>LALT</Text>
+                <ScalingMode>None</ScalingMode>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="f1 button 1 1 2 1 1" SnapTarget="True" Locked="True">
+              <Location>401,117</Location>
+              <Size>43,68</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37\Spitfire_LFMkIX\Buttons_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
+              <Text>
+                <Color>#FFE3D38B</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>16</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>RALT</Text>
+                <ScalingMode>None</ScalingMode>
+              </Text>
+              <Children />
+            </Control>
           </Children>
         </Control>
         <Control TypeIdentifier="Helios.Panel.Timer" Name="Splash Screen" SnapTarget="True" Locked="False">
-          <Location>522,347</Location>
-          <Size>856,478</Size>
+          <Location>0,814</Location>
+          <Size>474,264</Size>
           <Hidden>False</Hidden>
           <Background />
           <Interaction>
@@ -4668,22 +4484,22 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>0,8</Location>
-              <Size>856,471</Size>
+              <Location>0,0</Location>
+              <Size>469,257</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome" SnapTarget="False" Locked="True">
-              <Location>116,8</Location>
-              <Size>44,31</Size>
+              <Location>60,0</Location>
+              <Size>21,13</Size>
               <Hidden>False</Hidden>
               <MetronomeEnabled>False</MetronomeEnabled>
               <TickInterval>0.5</TickInterval>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire" SnapTarget="False" Locked="True">
-              <Location>160,8</Location>
-              <Size>44,31</Size>
+              <Location>86,0</Location>
+              <Size>21,13</Size>
               <Hidden>False</Hidden>
               <Thresholds>
                 <UseThresholdValues>True</UseThresholdValues>
@@ -4694,8 +4510,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel" SnapTarget="True" Locked="True">
-              <Location>95,8</Location>
-              <Size>37,31</Size>
+              <Location>50,0</Location>
+              <Size>17,13</Size>
               <Hidden>False</Hidden>
               <Background />
               <Interaction>
@@ -4715,7 +4531,7 @@
                 <FontFamily>Constantia</FontFamily>
                 <FontStyle>Normal</FontStyle>
                 <FontWeight>Bold</FontWeight>
-                <FontSize>60</FontSize>
+                <FontSize>40</FontSize>
                 <HorizontalAlignment>Center</HorizontalAlignment>
                 <VerticalAlignment>Center</VerticalAlignment>
                 <Padding>
@@ -4727,22 +4543,22 @@
               </Font>
               <Text />
               <ScalingMode>None</ScalingMode>
-              <Location>125,0</Location>
-              <Size>579,100</Size>
+              <Location>64,0</Location>
+              <Size>315,53</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 1" SnapTarget="False" Locked="True">
-              <Location>218,8</Location>
-              <Size>44,31</Size>
+              <Location>118,0</Location>
+              <Size>21,13</Size>
               <Hidden>False</Hidden>
               <MetronomeEnabled>False</MetronomeEnabled>
               <TickInterval>0.5</TickInterval>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire 1" SnapTarget="False" Locked="True">
-              <Location>262,8</Location>
-              <Size>44,31</Size>
+              <Location>141,0</Location>
+              <Size>21,13</Size>
               <Hidden>False</Hidden>
               <Thresholds>
                 <UseThresholdValues>True</UseThresholdValues>
@@ -4760,7 +4576,7 @@
                 <FontFamily>Constantia</FontFamily>
                 <FontStyle>Normal</FontStyle>
                 <FontWeight>Bold</FontWeight>
-                <FontSize>44</FontSize>
+                <FontSize>20</FontSize>
                 <HorizontalAlignment>Center</HorizontalAlignment>
                 <VerticalAlignment>Center</VerticalAlignment>
                 <Padding>
@@ -4772,22 +4588,22 @@
               </Font>
               <Text />
               <ScalingMode>None</ScalingMode>
-              <Location>20,415</Location>
-              <Size>635,63</Size>
+              <Location>8,226</Location>
+              <Size>348,32</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 2" SnapTarget="False" Locked="True">
-              <Location>465,8</Location>
-              <Size>40,41</Size>
+              <Location>253,0</Location>
+              <Size>19,19</Size>
               <Hidden>False</Hidden>
               <MetronomeEnabled>False</MetronomeEnabled>
               <TickInterval>0.01</TickInterval>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add" SnapTarget="False" Locked="True">
-              <Location>514,8</Location>
-              <Size>50,45</Size>
+              <Location>280,0</Location>
+              <Size>24,21</Size>
               <Hidden>False</Hidden>
               <Thresholds>
                 <UseThresholdValues>True</UseThresholdValues>
@@ -4798,8 +4614,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel 1" SnapTarget="True" Locked="True">
-              <Location>429,8</Location>
-              <Size>37,31</Size>
+              <Location>233,0</Location>
+              <Size>17,13</Size>
               <Hidden>False</Hidden>
               <Background />
               <Interaction>
@@ -4816,16 +4632,7 @@
       </Children>
     </Monitor>
     <Monitor>
-      <Location>3840,1445</Location>
-      <Size>1920,1080</Size>
-      <Hidden>False</Hidden>
-      <Orientation>DMDO_DEFAULT</Orientation>
-      <AlwaysOnTop>True</AlwaysOnTop>
-      <Background />
-      <Children />
-    </Monitor>
-    <Monitor>
-      <Location>3848,5</Location>
+      <Location>3840,731</Location>
       <Size>5120,1440</Size>
       <Hidden>False</Hidden>
       <Orientation>DMDO_DEFAULT</Orientation>
@@ -5106,6 +4913,16 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS SpitfireLFMkIX" Name="Cockpit.Winding/Adjustment Clock Pull out_.changed" />
+      <Action Target="Visual;Monitor 2.Clock winding knob;Helios.Base.RotaryEncoderClickable;Clock winding knob" Name="set.physical state" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS SpitfireLFMkIX" Name="Cockpit.Winding/Adjustment Clock.changed" />
+      <Action Target="Visual;Monitor 2.Clock winding knob;Helios.Base.RotaryEncoderClickable;Clock winding knob" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS SpitfireLFMkIX" Name="Cockpit.Landing Flaps Up/Down.changed" />
       <Action Target="Visual;Monitor 2.flap lever;Helios.Base.ToggleSwitch;flap lever" Name="set.position" />
       <TriggerValue />
@@ -5193,6 +5010,16 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS SpitfireLFMkIX" Name="Engine.Wobble Type Fuel Pump.changed" />
       <Action Target="Visual;Monitor 2.Start Panel.wobble pump lever;Helios.Base.ToggleSwitch;wobble pump lever" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS SpitfireLFMkIX" Name="Engine.Primer Pump Turn.changed" />
+      <Action Target="Visual;Monitor 2.Start Panel.Primer;Helios.Base.PotentiometerClickable;Primer" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS SpitfireLFMkIX" Name="Engine.Primer Pump Pull.changed" />
+      <Action Target="Visual;Monitor 2.Start Panel.Primer;Helios.Base.PotentiometerClickable;Primer" Name="set.physical state" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -5321,26 +5148,6 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS SpitfireLFMkIX" Name="Cockpit.Winding/Adjustment Clock Pull out_.changed" />
-      <Action Target="Visual;Monitor 2.Clock winding knob;Helios.Base.RotaryEncoderClickable;Clock winding knob" Name="set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS SpitfireLFMkIX" Name="Cockpit.Winding/Adjustment Clock.changed" />
-      <Action Target="Visual;Monitor 2.Clock winding knob;Helios.Base.RotaryEncoderClickable;Clock winding knob" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS SpitfireLFMkIX" Name="Engine.Primer Pump Turn.changed" />
-      <Action Target="Visual;Monitor 2.Start Panel.Primer;Helios.Base.PotentiometerClickable;Primer" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS SpitfireLFMkIX" Name="Engine.Primer Pump Pull.changed" />
-      <Action Target="Visual;Monitor 2.Start Panel.Primer;Helios.Base.PotentiometerClickable;Primer" Name="set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.weapon switch;Helios.Base.ToggleSwitch;weapon switch" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS SpitfireLFMkIX" Name="Weapons.set.Safety" />
       <TriggerValue />
@@ -5364,36 +5171,6 @@
       <Trigger Source="Visual;Monitor 2.Mark button;Helios.Base.PushButton;Mark button" Name="released" />
       <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
       <StaticValue>{RCONTROL}k</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.f1 button;Helios.Base.PushButton;f1 button" Name="released" />
-      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{F1}</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.f2 button;Helios.Base.PushButton;f2 button" Name="released" />
-      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{F2}</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.f10 button;Helios.Base.PushButton;f10 button" Name="released" />
-      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{F10}</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.rearm button;Helios.Base.PushButton;rearm button" Name="released" />
-      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{LALT}'</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.brief buttin;Helios.Base.PushButton;brief buttin" Name="released" />
-      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{LALT}b</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.esc button;Helios.Base.PushButton;esc button" Name="released" />
-      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{ESCAPE}</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.nav light switch;Helios.Base.ToggleSwitch;nav light switch" Name="position.changed" />
@@ -5661,6 +5438,16 @@
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.reset sw;Helios.Base.ToggleSwitch;reset sw" Name="position one.entered" />
+      <Action Target="Visual;Monitor 2.F_Key Panel ACC;Helios.Panel;F_Key Panel ACC" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.reset sw;Helios.Base.ToggleSwitch;reset sw" Name="position one.entered" />
+      <Action Target="Visual;Monitor 2.Keys button ;Helios.Base.PushButton;Keys button " Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.reset sw;Helios.Base.ToggleSwitch;reset sw" Name="position one.exited" />
       <Action Target="Visual;Monitor 2.radio panel sw;Helios.Base.ToggleSwitch;radio panel sw" Name="set.position" />
       <StaticValue>2</StaticValue>
@@ -5679,16 +5466,6 @@
       <Trigger Source="Visual;Monitor 2.reset sw;Helios.Base.ToggleSwitch;reset sw" Name="position one.exited" />
       <Action Target="Visual;Monitor 2.Start panel sw;Helios.Base.ToggleSwitch;Start panel sw" Name="set.position" />
       <StaticValue>2</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.reset sw;Helios.Base.ToggleSwitch;reset sw" Name="position one.entered" />
-      <Action Target="Visual;Monitor 2.F_Key Panel ACC;Helios.Panel;F_Key Panel ACC" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.reset sw;Helios.Base.ToggleSwitch;reset sw" Name="position one.entered" />
-      <Action Target="Visual;Monitor 2.Keys button ;Helios.Base.PushButton;Keys button " Name="set.physical state" />
-      <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Rotary Switch;Helios.Base.RotarySwitch;Rotary Switch" Name="position.changed" />
@@ -6236,6 +6013,26 @@
       <StaticValue>{ESCAPE}</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.F_Key Panel ACC.f1 button 1 1 2 1;Helios.Base.PushButton;f1 button 1 1 2 1" Name="closed" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="press key" />
+      <StaticValue>{LALT}</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.F_Key Panel ACC.f1 button 1 1 2 1;Helios.Base.PushButton;f1 button 1 1 2 1" Name="open" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="release key" />
+      <StaticValue>{LALT}</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.F_Key Panel ACC.f1 button 1 1 2 1 1;Helios.Base.PushButton;f1 button 1 1 2 1 1" Name="closed" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="press key" />
+      <StaticValue>{RALT}</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.F_Key Panel ACC.f1 button 1 1 2 1 1;Helios.Base.PushButton;f1 button 1 1 2 1 1" Name="open" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="release key" />
+      <StaticValue>{RALT}</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen;Helios.Panel.Timer;Splash Screen" Name="hidden" />
       <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2;Helios.Special.Metronome;Metronome 2" Name="Metronome.set.Enable" />
       <StaticValue>false</StaticValue>
@@ -6248,7 +6045,7 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Numeric Signal.changed" />
       <Action Target="Visual;Monitor 2.Splash Screen.Splash Screen;Helios.Base.Text;Splash Screen" Name="set.Text" />
-      <LuaScript>return(string.sub("~MadKreator37~",0,TriggerValue))</LuaScript>
+      <LuaScript>return(string.sub("~_Author~",0,TriggerValue))</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Upper/Lower threshold breach.changed" />
@@ -6298,7 +6095,7 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire 1" Name="Numeric Signal.changed" />
       <Action Target="Visual;Monitor 2.Splash Screen.Splash Screen 1;Helios.Base.Text;Splash Screen 1" Name="set.Text" />
-      <LuaScript>return(string.sub(" _ProfileVersionNumber   _BuildDate  ",0,TriggerValue))</LuaScript>
+      <LuaScript>return(string.sub(" _ProfileVersionNumber  _BuildDate",0,TriggerValue))</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire 1" Name="Upper/Lower threshold breach.changed" />
